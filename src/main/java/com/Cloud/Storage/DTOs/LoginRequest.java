@@ -1,14 +1,10 @@
-package DTOs;
+package com.Cloud.Storage.DTOs;
 
-public class RegisterRequest {
-    private String fullName;
+public class LoginRequest {
     private String email;
     private String password;
 
-    public String getFullName(){
-        return fullName;
-    }
-    public  String getEmail(){
+    public String getEmail(){
         return email;
     }
     public String getPassword(){
@@ -20,7 +16,5 @@ public class RegisterRequest {
     public void setPassword(String password){
         this.password=password;
     }
-    public void setFullName(String fullName){
-        this.fullName=fullName;
-    }
+
 }

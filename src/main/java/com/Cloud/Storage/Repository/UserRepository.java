@@ -1,6 +1,6 @@
-package Repository;
+package com.Cloud.Storage.Repository;
 
-import Entity.Registration;
+import com.Cloud.Storage.Entity.Registration;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
